@@ -1,0 +1,65 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# Rider IDE
+.idea/
+
+# VSCode
+.vscode/
+
+# Visual Studio working folder
+.vs/
+
+# Auto-generated files
+Generated_Code/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# NUnit
+TestResult.xml
+TestResult-*.xml
+
+# DotCover
+*.dcvr
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dotnet CLI
+*.deps.json
+*.runtimeconfig.json
+*.dll
+*.exe
+*.pdb
+
+# JetBrains Rider logs
+.idea/
+*.sln.iml
