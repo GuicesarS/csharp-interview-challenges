@@ -33,7 +33,7 @@ public class PostsHandler
             var json = await response.Content.ReadAsStringAsync();
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-            var postsList = System.Text.Json.JsonSerializer.Deserialize<List<PostsHandler>>(json, options);
+            var postsList = JsonSerializer.Deserialize<List<PostsHandler>>(json, options);
 
             if (postsList != null)
             {
