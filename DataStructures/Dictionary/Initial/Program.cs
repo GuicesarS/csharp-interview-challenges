@@ -5,8 +5,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Dictionary<int,string> cars = new Dictionary<int,string>();
-       
+        Dictionary<int, string> cars = new Dictionary<int, string>();
+
         cars.Add(10, "Volvo");
         cars.Add(20, "BMW");
         cars.Add(30, "Ford");
@@ -15,7 +15,7 @@ class Program
 
         Console.WriteLine($"Cars Dictionary Count: {cars.Count}");
         Console.WriteLine();
-       
+
         // Display all cars
         foreach (var car in cars)
         {
@@ -30,8 +30,8 @@ class Program
         {
             Console.WriteLine("Car with Id 20 does not exist.");
         }
-       
-        if(cars.TryGetValue(40, out string carName))
+
+        if (cars.TryGetValue(40, out string carName))
         {
             Console.WriteLine($"\nCar with Id 40: {carName}");
         }
