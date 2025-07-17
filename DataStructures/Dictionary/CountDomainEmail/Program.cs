@@ -17,7 +17,7 @@ class Program
 
             if (Count.ContainsKey(domain))
             {
-                Count[domain]++;
+                Count[domain]++; // Count[domain] Key = Count[domain] + 1 Value
             }
             else
             {
